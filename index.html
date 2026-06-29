@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Un Mismo Río · Encuentro de Música Vocal · Formosa '26</title>
+  <meta name="description" content="Encuentro de Música Vocal - Un Mismo Río. Tres grupos vocales, tres recorridos, un mismo cauce. 14 y 15 de agosto, Formosa." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Caveat:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== BARRA SUPERIOR ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#inicio" class="nav-logo nav-logo-left">
+        <img src="img/logo-sondelrio.png" alt="Son del Río" />
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio">INICIO</a>
+        <a href="#ensayo">ENSAYO ABIERTO</a>
+        <a href="#concierto">CONCIERTO</a>
+        <a href="#galeria">GALERÍA</a>
+        <a href="#aporte">APORTE</a>
+        <a href="#contacto">CONTACTO</a>
+      </nav>
+
+      <a href="#inicio" class="nav-logo nav-logo-right">
+        <img src="img/logo-apoyo.png" alt="Apoyá la Música Vocal Argentina" />
+      </a>
+    </div>
+  </header>
+
+  <!-- ===================== SECCIÓN 1 · INICIO ===================== -->
+  <section id="inicio" class="section section-inicio">
+    <div class="inicio-content">
+      <div class="inicio-fecha">
+        <span>?? 14 Y 15 DE AGOSTO</span>
+        <span>?? 21 HS.</span>
+      </div>
+      <a href="#aporte" class="btn btn-principal">QUIERO COLABORAR <span class="heart">?</span></a>
+    </div>
+  </section>
+
+  <!-- ===================== SECCIÓN 2 · ENSAYO ABIERTO ===================== -->
+  <section id="ensayo" class="section section-ensayo">
+    <div class="ensayo-grid">
+      <div class="ensayo-texto">
+        <h2 class="titulo-script">Ensayo Abierto</h2>
+        <p><strong>14 DE AGOSTO</strong></p>
+        <p>Tres grupos vocales provenientes de Formosa, Posadas y La Plata, se reúnen para compartir una noche única de música, una mirada nueva.</p>
+        <p>Un mismo río nace como un espacio para celebrar la diversidad de las voces, las carreras nacidas y la pluralidad construida a través del canto colectivo.</p>
+        <p>Diferentes historias, diferentes pasajes. Tres ríos se hacen uno...</p>
+      </div>
+      <div class="ensayo-foto">
+        <img src="img/ensayo.jpg" alt="Ensayo abierto del encuentro" />
+        <p class="ensayo-pie">ENCUENTRO · CANCIONES DE AQUÍ Y DE ALLÁ · UN ABRAZO COMPARTIDO DE HISTORIAS · 14 DE AGOSTO · 21 HS · CASA DE ARTESANÍA (Av. 25 de Mayo, San Martín)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SECCIÓN 3 · CONCIERTO ===================== -->
+  <section id="concierto" class="section section-concierto">
+    <div class="concierto-header">
+      <h2 class="titulo-script grande">Concierto<br><span>Un Mismo Río</span></h2>
+      <p class="concierto-fecha">15 DE AGOSTO · 21 HS · GALPÓN "C"</p>
+    </div>
+
+    <div class="grupos">
+      <!-- SON DEL RÍO -->
+      <article class="grupo">
+        <div class="grupo-img">
+          <img src="img/sondelrio.jpg" alt="Son del Río" />
+        </div>
+        <div class="grupo-info">
+          <h3>SON DEL RÍO <span class="grupo-lugar">FORMOSA</span></h3>
+          <p>Conjunto vocal formoseño que combina un nervio de raíz folklórica con repertorio de América Latina. Ganadores del Pre-Cosquín 2024 en el rubro Conjunto Vocal y representantes de Formosa en los Encuentros Nacionales de Grupos Vocales.</p>
+          <button class="btn btn-grupo" data-cv="img/cv-sondelrio.pdf">CONOCER MÁS</button>
+        </div>
+      </article>
+
+      <!-- ENARMONÍA -->
+      <article class="grupo grupo-invertido">
+        <div class="grupo-img">
+          <img src="img/enarmonia.jpg" alt="Enarmonía" />
+        </div>
+        <div class="grupo-info">
+          <h3>ENARMONÍA <span class="grupo-lugar">POSADAS</span></h3>
+          <p>Grupo referente de la música vocal argentina con más de quince décadas de trayectoria. Su labor abarca profundamente desde la Encuentros Nacionales de Grupos Vocales y el desarrollo del canto colectivo en el país.</p>
+          <button class="btn btn-grupo" data-cv="img/cv-enarmonia.pdf">CONOCER MÁS</button>
+        </div>
+      </article>
+
+      <!-- CONFLUENCIA -->
+      <article class="grupo">
+        <div class="grupo-img">
+          <img src="img/confluencia.jpg" alt="Confluencia" />
+        </div>
+        <div class="grupo-info">
+          <h3>CONFLUENCIA <span class="grupo-lugar">LA PLATA</span></h3>
+          <p>Agrupación vocal nacida en City Bell en 1992. Su propuesta fusiona la tradición folklórica argentina con una sólida construcción vocal e instrumental que se mantiene vigente desde hace más de treinta años.</p>
+          <button class="btn btn-grupo" data-cv="img/cv-confluencia.pdf">CONOCER MÁS</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===================== SECCIÓN 4 · GALERÍA ===================== -->
+  <section id="galeria" class="section section-galeria">
+    <h2 class="titulo-script grande centro">Galería</h2>
+    <div class="galeria-grid">
+      <figure class="galeria-item"><img src="img/galeria1.jpg" alt="Foto 1" data-full="img/galeria1.jpg" /></figure>
+      <figure class="galeria-item"><img src="img/galeria2.jpg" alt="Foto 2" data-full="img/galeria2.jpg" /></figure>
+      <figure class="galeria-item"><img src="img/galeria3.jpg" alt="Foto 3" data-full="img/galeria3.jpg" /></figure>
+      <figure class="galeria-item"><img src="img/galeria4.jpg" alt="Foto 4" data-full="img/galeria4.jpg" /></figure>
+      <figure class="galeria-item"><img src="img/galeria5.jpg" alt="Foto 5" data-full="img/galeria5.jpg" /></figure>
+      <figure class="galeria-item"><img src="img/galeria6.jpg" alt="Foto 6" data-full="img/galeria6.jpg" /></figure>
+      <figure class="galeria-item"><img src="img/galeria7.jpg" alt="Foto 7" data-full="img/galeria7.jpg" /></figure>
+      <figure class="galeria-item"><img src="img/galeria8.jpg" alt="Foto 8" data-full="img/galeria8.jpg" /></figure>
+      <figure class="galeria-item"><img src="img/galeria9.jpg" alt="Foto 9" data-full="img/galeria9.jpg" /></figure>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX GALERÍA -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-cerrar" id="lightboxCerrar" aria-label="Cerrar">?</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Anterior">‹</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="Foto ampliada" />
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Siguiente">›</button>
+    <a class="lightbox-descargar btn btn-grupo" id="lightboxDescargar" href="" download>DESCARGAR FOTO ?</a>
+  </div>
+
+  <!-- ===================== SECCIÓN 5 · APORTE ===================== -->
+  <section id="aporte" class="section section-aporte">
+    <h2 class="titulo-script grande centro">Aporte Solidario</h2>
+    <div class="aporte-grid">
+      <div class="aporte-col">
+        <p class="aporte-texto">La realización de este evento exige un gran esfuerzo de la organización. Los conciertos de uso del espacio físico para el evento no nos permite el cobro de entradas, por lo que hemos habilitado un Aporte Colaborativo para quienes quieran ayudarnos a cubrir los gastos derivados de brindar este espectáculo.</p>
+        <div class="aporte-sugerido">
+          <span>APORTE SUGERIDO</span>
+          <strong>$15.000</strong>
+        </div>
+      </div>
+
+      <div class="aporte-col centro">
+        <h3 class="aporte-subtitulo">Transferencia</h3>
+        <p class="aporte-label">ALIAS</p>
+        <button class="btn btn-alias" id="btnAlias" data-alias="sondelrio">COPIAR ALIAS: sondelrio</button>
+        <p class="aporte-cuenta">CUENTA A NOMBRE DE:<br><strong>YANINA GOODY</strong></p>
+        <p class="aporte-cuenta">BILLETERA:<br><strong>PERSONAL PAY</strong></p>
+      </div>
+
+      <div class="aporte-col centro">
+        <h3 class="aporte-subtitulo">Comprobante</h3>
+        <p class="aporte-tel">?? 3704 588415</p>
+        <a class="btn btn-grupo" id="btnComprobante" href="https://wa.me/5493704588415?text=Hola!%20Adjunto%20mi%20comprobante%20del%20aporte%20para%20Un%20Mismo%20R%C3%ADo" target="_blank" rel="noopener">ENVIAR COMPROBANTE POR WHATSAPP</a>
+        <p class="aporte-gracias">¡MUCHAS GRACIAS!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SECCIÓN 6 · CONTACTO ===================== -->
+  <section id="contacto" class="section section-contacto">
+    <div class="contacto-inner">
+      <div class="contacto-logo">
+        <img src="img/logo-sondelrio.png" alt="Son del Río" />
+        <h3>UN MISMO RÍO</h3>
+        <p>Encuentro de Música Vocal</p>
+      </div>
+
+      <div class="contacto-datos">
+        <div><strong>14 de Agosto</strong><br>?? Casa de la Artesanía<br>(Av. 25 de Mayo, San Martín)</div>
+        <div><strong>15 de Agosto</strong><br>?? Galpón "C"<br>(Av. Costanera)</div>
+      </div>
+
+      <div class="contacto-redes">
+        <span>SEGUINOS:</span>
+        <div class="redes-iconos">
+          <a href="https://www.instagram.com/sondelrio.gv" target="_blank" rel="noopener" aria-label="Instagram de Son del Río" class="red-btn red-ig">Instagram</a>
+          <a href="https://www.facebook.com/sondelrio.gv" target="_blank" rel="noopener" aria-label="Facebook de Son del Río" class="red-btn red-fb">Facebook</a>
+          <a href="https://www.youtube.com/@SonDelRio-GV" target="_blank" rel="noopener" aria-label="YouTube de Son del Río" class="red-btn red-yt">YouTube</a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">© 2024 Son del Río · Todos los derechos reservados</p>
+  </section>
+
+  <!-- aviso copiado -->
+  <div class="toast" id="toast">Alias copiado ?</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
